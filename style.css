@@ -22,7 +22,7 @@ h4 {
 
 img { 
   display: block;
-  margin: 0 auto;
+  margin: 8px auto;
   max-width: 100%;
 }
 
@@ -42,6 +42,11 @@ img.capsule {
 img.wide-capsule {
   border-radius: 4px;
   width: 80%;
+}
+
+.image-block img {
+  display: inline-block;
+  width: 48%;
 }
 
 .center { 
@@ -89,4 +94,3 @@ tr > td:last-child {
 p {
   line-height: 1.25em;
 }
-
