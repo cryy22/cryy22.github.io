@@ -13,7 +13,7 @@ a:active { color: #FFFFFF; }
 h1, h2, h3, h4 { text-align: center; }
 
 h3 {
-  margin-bottm: 8px;
+  margin-bottom: 8px;
 }
 
 h4 {
@@ -49,6 +49,10 @@ img.wide-capsule {
   width: 48%;
 }
 
+img.small-img {
+  width: 24%;
+}
+
 .center { 
   text-align: center;
   margin-left: auto;
@@ -81,6 +85,10 @@ a.selected-header-bar-item {
   font-weight: bold;
 }
 
+td {
+  width: 50%;
+}
+
 tr > td:first-child {
   color: gray;
   font-weight: bold;
@@ -94,3 +102,15 @@ tr > td:last-child {
 p {
   line-height: 1.25em;
 }
+
+.spacing {
+  height: 200px;
+}
+
+p.bottom {
+  font-size: 11px;
+  margin-bottom: 2px;
+  text-align: center;
+  transform: rotate(90deg);
+}
+
