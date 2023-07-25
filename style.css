@@ -46,7 +46,7 @@ img.wide-capsule {
 
 .image-block img {
   display: inline-block;
-  width: 48%;
+  width: 30%;
 }
 
 img.small-img {
@@ -112,5 +112,10 @@ p.bottom {
   margin-bottom: 2px;
   text-align: center;
   transform: rotate(90deg);
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
 
